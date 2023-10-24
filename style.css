@@ -1,0 +1,298 @@
+*{
+  margin: 0;
+  padding: 0;
+  transition: all .5s;
+}
+body{
+  height: 5000px;
+}
+/* start nav and home */
+.navbar .container .logo-nav img{
+  width: 120px;
+}
+.navbar .container li:hover{
+  background-color: rgba(255, 0, 0, 0.516);
+}
+.home{
+  background-color: #eeeeee91;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .text-home h1{
+  color: #000;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.home .text-home p{
+  font-size: 15px;
+}
+.home .text-home button{
+  padding: 5px;
+  width: 120px;
+  border: none;
+  background-color: red;
+  color: #fff;
+}
+.home .image-home img{
+  height: 800px;
+}
+
+/* end nav and home */
+/* start new-products */
+.container.new-products{
+  margin-top: 20px;
+
+}
+.container.new-products .text-new-products{
+  margin-bottom: -10px;
+}
+.container.new-products .text-new-products h3{
+  color: #000;
+  letter-spacing: -1px;
+  font-weight: 900;
+}
+.container.new-products .row .card2 img{
+  width: 400px;
+  transition: .5s;
+}
+.container.new-products .row .card2{
+  overflow: hidden;
+  width: auto;
+  height: 540px;
+}
+.container.new-products .row .card2 img:hover{
+   transform: scale(1.1);
+}
+.container.new-products .row  .text-card{
+  text-align: center;
+}
+.container.new-products .row  .text-card h4{
+  color: #000;
+}
+.container.new-products .row  .text-card h6{
+  color: rgb(255, 0, 0);
+}
+/* end new-products */
+.col-lg-3 .up{
+  margin-bottom: 32px;
+}
+.container-fluid .row img{
+  transition: .5s;
+}
+.container-fluid .row img:hover{
+  transform: scale(.98);
+}
+.Populer_Items{
+  margin-top: 30px;
+  text-align: center;
+}
+.Populer_Items .all-text h3{
+  color: #000;
+  letter-spacing: -1px;
+  font-weight: 900;
+}
+.Populer_Items .all-text p{
+  font-size: 15px;
+}
+.Populer_Items .row .card1{
+  height: 440px;
+  overflow: hidden;
+  position: relative;
+
+}
+.Populer_Items .row img{
+  height: 440px;
+  border-bottom: 3px solid red;
+}
+.row .button button{
+  width: 100%;
+ background-color: #ff00006f;
+ border: none;
+ padding: 5px;
+ font-weight:bold;
+ position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+.card1:hover button{
+  height: 40px;
+  visibility: visible;
+  opacity: 1;
+}
+.card1:hover img{
+  transform: scale(1.1);
+}
+.container.sec4{
+  margin-top:50px ;
+}
+.container.sec4 img{
+  width: 300px;
+  
+}
+
+/* start-media */
+
+@media screen and (max-width: 1400px) {
+  .container.new-products .row .card2 img{
+    width: 350px;
+    height: 500px;
+  }
+  .container.new-products .row .card2{
+    width: auto;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 1199.5px) {
+  .home{
+    height: 500px;
+  }
+  .home .text-home h1{
+    font-size: 50px;
+  }
+  .home .text-home p{
+    width: 600px;
+  }
+  .home .image-home img{
+    height: 500px;
+  }
+  .container.new-products .row .card2 img{
+    width: 300px;
+    height: 450px;
+  }
+  .container.new-products .row .card2{
+    width: auto;
+    height: 450px;
+  }
+}
+@media screen and (max-width: 991.5px) {
+  .home{
+    height: 400px;
+  }
+  .home .text-home h1{
+    font-size: 40px;
+  }
+  .home .text-home button{
+    width: 90px;
+    font-size: 12px;
+  }
+  .home .image-home img{
+    display: none;
+  } 
+  .container.new-products .row .text-card{
+    text-align: center;
+  }
+  .container.new-products .row .text-card h4{
+    font-size: 17px;
+  }
+  .container.new-products .row .text-card h6{
+    font-size: 14px;
+  }
+  .container-fluid .row .up img{
+    margin-top: 32px;
+  }
+}
+@media screen and (max-width: 767.5px) {
+  .home{
+    height: 400px;
+  }
+  .home .text-home h1{
+    font-size: 30px;
+  }
+  .home .text-home p{
+    width: 400px;
+  }
+  .container-fluid .row .gallery2 img{
+    margin-top: 15px;
+  }
+  .container.new-products{
+    text-align: center;
+  }
+  .container.new-products .row .text-card{
+    text-align: center;
+  }
+  .col-lg-3 .up{
+    margin-bottom: 15px;
+  }
+  .container.sec4 img{
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 460.5px) {
+  .home .text-home h1{
+    font-size: 20px;
+    width: 300px;
+  }
+  .home .text-home p{
+    font-size: 12px;
+    width: 300px;
+  }
+  .home .text-home button{
+    width: 80px;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 316.5px) {
+  .home .text-home h1{
+    font-size: 20px;
+    width: 200px;
+  }
+  .home .text-home p{
+    font-size: 12px;
+    width: 200px;
+  }
+  .home .text-home button{
+    width: 70px;
+    font-size: 10px;
+  }
+ 
+  .container.new-products .row .card2 img{
+    width: 200px;
+    height: 300px;
+  }
+  .container.new-products .row .card2{
+    width: 200px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 215.5px) {
+  .container.new-products .row div img{
+    width: 100px;
+    height: 200px;
+  }
+  .container.new-products .row .card2{
+    width: 100px;
+    height: 200px;
+  }
+  .container.new-products .row div .text-card h4{
+    font-size: 8px;
+  }
+  .container.new-products .row div .text-card h6{
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 211.5px) {
+  .navbar .container .logo-nav img{
+    width: 80px;
+  }
+  .home .text-home h1{
+    font-size: 15px;
+    width: 100px;
+  }
+  .home .text-home p{
+    font-size: 10px;
+    width: 150px;
+  }
+
+  .home .text-home button{
+    width: 60px;
+    font-size: 8px;
+  }
+}
+
+
